@@ -45,14 +45,14 @@ This is easy to do from the terminal using `v4l2-ctl`, but it's a pain to have t
 Useful tools
 ===
 Small utilities and other odds and ends.
-* **rsync** (installed by default) - backup and sync utility. 
-* **terminator** - a better terminal that lets you have multiple terminals in one window. 
+* **rsync** (installed by default) - backup and sync utility 
+* **terminator** - a better terminal that lets you have multiple terminals in one window 
 * **lm-sensors** - `sensors` command lets you easily view CPU thermal information (and fan speed on some systems).
-* **htop** - terimal-based system resource utilization monitor and process manager. Better than `top`.
+* **htop** - terimal-based system resource utilization monitor and process manager. Better than `top`
 * **xbindkeys** - for creating key commands and macros. I use it for remapping extra mouse buttons. `.xbindkeysrc` has my remaps for the two extra buttons on my Logitech MX Master 3s to copy and paste. (Note: my particular xbindkeys commands require `xautomation` to be installed.)
-* **xclip** - terminal interface for clipboard. See the alias in `.my_bashrc` for how to make it use the system clipboard.
-* **GParted** - disk partition management
-* **v4l-utils** - `v4l2-ctl` can be used to control webcam drivers
+* **xclip** - terminal interface for clipboard. See the alias in `.my_bashrc` for how to make it use the system clipboard
+* **GParted** - disk partition management 
+* **v4l-utils** - `v4l2-ctl` can be used to control webcam drivers 
 
 Handy apps
 === 
