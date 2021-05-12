@@ -24,6 +24,14 @@ I have found some screen tearing problems when using Nvidia graphics. To check f
 2. `sudo update-initramfs -u`
 3. Restart
 
+Other fixes
+===
+Fixes for miscellaneous issues that don't fit into another category
+
+Slow sudo
+---
+If you change your hostname (the name of your device), `sudo` can become slow. The fix is to edit `/etc/hosts` so that the second line has your new hostname instead of the old one. You can find your hostname using the `hostnaame` command.
+
 Gnome customizations
 ===
 * **gnome-tweaks** - I use this to add the day of the week to the clock in the status bar and a percentage next to the battery indicator.
