@@ -1,5 +1,5 @@
 # About this repo
-I run Ubuntu as my daily driver OS on latops. Here are some ways I make it work best for me. My laptops have Intel CPUs and NVIDIA GTX graphics. This is a log of tips, tricks, tools, and fixes that I want to remember for reference when setting up systems in the future.
+I run Ubuntu as my daily driver OS on latops. Here are some ways I make it work best for me. My laptops have Intel CPUs and NVIDIA GTX graphics. This is a log of tips, tricks, tools, and fixes that I want to remember for reference when setting up systems in the future. **NOTE: Any file in this repo with a name like `dot_xyz` is a dotfile and should be renamed to `.xyz` when used.**
 
 BIOS fixes
 ===
