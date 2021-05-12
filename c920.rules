@@ -1,0 +1,2 @@
+ATTRS{idVendor}=="046d", ATTRS{idProduct}=="0892", RUN+="/usr/local/bin/c920_focus.sh"
+
