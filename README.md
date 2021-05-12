@@ -36,7 +36,7 @@ The last line of my `.bashrc` is `source .my_bashrc`. `.my_bashrc` has comand al
 
 Show thumbnails for raw images 
 ---
-Note that this will make Nautilus slower when loading thubnails. Set the contents of `/usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer` to those of the file by the same name in this repo.
+Note that this will make Nautilus slower when loading thubnails. Set the contents of `/usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer` to those of the file by the same name in this repo. (Thumbnailer config from https://gist.github.com/h4cc/13450db3d4a7457f9b38)
 
 Disable Logitech C920 autofocus when plugged in
 ---
