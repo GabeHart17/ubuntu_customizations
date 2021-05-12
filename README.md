@@ -35,6 +35,7 @@ If you change your hostname (the name of your device), `sudo` can become slow. T
 Gnome customizations
 ===
 * **gnome-tweaks** - I use this to add the day of the week to the clock in the status bar and a percentage next to the battery indicator.
+* **system76-power** - GUI graphics switching. This comes by default in System76 Pop!\_OS, but can be manually installed as a package and Gnome extension in Ubuntu.
 
 Other customizations
 ===
