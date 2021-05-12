@@ -1,0 +1,10 @@
+# configure xbindkeys
+xbindkeys --poll-rc
+
+# xclip alias to clip to system cliboard
+alias clip="xclip -sel clip"
+
+# gcc aliases
+alias gccdb="gcc -ggdb -O0"
+alias g++db="g++ -ggdb -O0"
+
