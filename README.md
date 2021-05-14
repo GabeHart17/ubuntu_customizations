@@ -36,6 +36,7 @@ Gnome customizations
 ===
 * **gnome-tweaks** - I use this to add the day of the week to the clock in the status bar and a percentage next to the battery indicator.
 * **system76-power** - GUI graphics switching. This comes by default in System76 Pop!\_OS, but can be manually installed as a package and Gnome extension in Ubuntu.
+* **pop shell** - More capable window tiling manager for Gnome. Comes with Pop!\_OS by default, but can be instaled manually as a Gnome extension by following the instructions in its git repository.
 
 Other customizations
 ===
