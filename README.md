@@ -52,6 +52,10 @@ Disable Logitech C920 (or other webcam) autofocus when plugged in
 ---
 This is easy to do from the terminal using `v4l2-ctl`, but it's a pain to have to do it every time. Place the files `c920.rules` in `/etc/udev/rules.d` and `c920_focus.sh` in `/usr/local/bin`. Make `c920_focus.sh` executable. Autofocus occasionally comes back on; run `c920_focus.sh` manually to fix when needed.
 
+Fingerprint authentication for sudo
+---
+If your laptop has a fingerprint sensor and you would like to be able to use it to authenticate when using `sudo`, run `sudo pam-auth-update` and mark the fingerprint sensor option.
+
 Useful tools
 ===
 Small utilities and other odds and ends.
