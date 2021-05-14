@@ -48,7 +48,7 @@ Show thumbnails for raw images
 ---
 Note that this will make Nautilus slower when loading thubnails. Set the contents of `/usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer` to those of the file by the same name in this repo. (Thumbnailer config from https://gist.github.com/h4cc/13450db3d4a7457f9b38)
 
-Disable Logitech C920 autofocus when plugged in
+Disable Logitech C920 (or other webcam) autofocus when plugged in
 ---
 This is easy to do from the terminal using `v4l2-ctl`, but it's a pain to have to do it every time. Place the files `c920.rules` in `/etc/udev/rules.d` and `c920_focus.sh` in `/usr/local/bin`. Make `c920_focus.sh` executable. Autofocus occasionally comes back on; run `c920_focus.sh` manually to fix when needed.
 
