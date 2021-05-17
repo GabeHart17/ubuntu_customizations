@@ -36,6 +36,10 @@ Firefox hardware acceleration (Nvidia)
 --- 
 I had some trouble getting Firefox to actually use hardware acceleration; even when "use hardware acceleration when available" was checked in the preferences, it wasn't actually using it. The only solution I've found so far is to *force* it to use hardware acceleration by going to `about:config`, searching for `layers.acceleration.force-enable`, and setting it to `true` using the button on the right with the arrows. After this, you can restart Firefox and make sure it appears in the list of processes given by `nvidia-smi`. Once hardware acceleration was enabled successfully, screen tearing when scrolling and choppiness during video playback were greatly reduced.
 
+Lag when using external display on laptop with DGPU
+---
+I encountered a lot of GUI lag when using *only* an external display, with the lid of the laptop closed. Setting the graphics to use only the DGPU rather than hybrid graphics seemed to fix this. Interestingly, this has only been an issue on one of the two Ubuntu laptops with Nvidia grpahics that I have owned.
+
 Gnome customizations
 ===
 * **gnome-tweaks** - I use this to add the day of the week to the clock in the status bar and a percentage next to the battery indicator.
