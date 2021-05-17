@@ -32,6 +32,10 @@ Slow sudo
 ---
 If you change your hostname (the name of your device), `sudo` can become slow. The fix is to edit `/etc/hosts` so that the second line has your new hostname instead of the old one. You can find your hostname using the `hostnaame` command.
 
+Firefox hardware acceleration (Nvidia)
+--- 
+I had some trouble getting Firefox to actually use hardware acceleration; even when "use hardware acceleration when available" was checked in the preferences, it wasn't actually using it. The only solution I've found so far is to *force* it to use hardware acceleration by going to `about:config`, searching for `layers.acceleration.force-enable`, and setting it to `true` using the button on the right with the arrows. After this, you can restart Firefox and make sure it appears in the list of processes given by `nvidia-smi`. Once hardware acceleration was enabled successfully, screen tearing when scrolling and choppiness during video playback were greatly reduced.
+
 Gnome customizations
 ===
 * **gnome-tweaks** - I use this to add the day of the week to the clock in the status bar and a percentage next to the battery indicator.
