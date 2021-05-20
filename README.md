@@ -82,3 +82,5 @@ Free applications for common needs.
 * **Okular** - better PDF viewer
 * **VLC Media Player** - play a variety of different multimedia formats
 * **Nomacs** - image viewer that supports more file formats than the stock one. Downside: no color management, so images may look a bit different than expected
+* **GIMP** - capable raster graphics and photo editing program
+* **RawTherapee** - raw image processing and conversion. Uses side-car files and doesn't modify original images.
