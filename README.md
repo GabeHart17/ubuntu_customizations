@@ -24,6 +24,10 @@ I have found some screen tearing problems when using Nvidia graphics. To check f
 2. `sudo update-initramfs -u`
 3. Restart
 
+Automatically force full composition pipeline
+---
+The Nvidia `ForceFullCompositionPipeline` option can help alleviate screen tearing and make graphics generally feel smoother. This can be enabled in nvidia-settings, but I've found that saving the settings to an `xorg.conf` file prevents the laptop's internal display from being detected/used when the laptop is restarted. A somewhat hackey work-around is to take the `.force_full_composition.sh` script in this repository and set it to run on startup using Ubuntu's startup applications utility.
+
 Other fixes
 ===
 Fixes for miscellaneous issues that don't fit into another category
