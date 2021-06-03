@@ -23,7 +23,8 @@ Occurrences
 Display Changes With Update on 2021-06-02
 ---
 What happened:
-* many packages had updates (ubuntu 20.04 LTS), I think this moved from the 5.9 to the 5.10 kernel? not positive what kernel it was before
+* many packages had updates (ubuntu 20.04 LTS)
+  * moved from kernel 5.8 to 5.10 according to `/var/log/apt/history.log`
 * external display stopped being recognized over USB-C
 * black screen after waking from suspend (such as closing and opening lid)
 * machine would freeze when USB-C display plugged in
