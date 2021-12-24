@@ -44,6 +44,10 @@ Lag when using external display on laptop with DGPU
 ---
 I encountered a lot of GUI lag when using *only* an external display, with the lid of the laptop closed. Setting the graphics to use only the DGPU rather than hybrid graphics seemed to fix this. Interestingly, this has only been an issue on one of the two Ubuntu laptops with Nvidia grpahics that I have owned.
 
+Better audio with bluetooth headsets
+---
+In order to use a high quality codec while still receiving microphone input, replace PulseAudio with PipeWire. Follow the directions here https://askubuntu.com/questions/1339765/replacing-pulseaudio-with-pipewire-in-ubuntu-20-04
+
 Gnome customizations
 ===
 * **gnome-tweaks** - I use this to add the day of the week to the clock in the status bar and a percentage next to the battery indicator.
